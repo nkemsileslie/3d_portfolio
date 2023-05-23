@@ -14,7 +14,7 @@ const ProjectCard = ({
   description, 
   tags, 
   image, 
-  source_code_Link, 
+  source_code_link, 
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -33,7 +33,7 @@ const ProjectCard = ({
 
         <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
             <div
-              onClick={() => window.open(source_code_Link, "_blank")}
+              onClick={() => window.open(source_code_link, "_blank")}
               className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
             >
               <img
@@ -78,7 +78,7 @@ const Works = () => {
       <motion.p 
       variants={fadeIn("", "", 0.1, 1)}
       className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]">
-        The following projects Lorem ipsum dolor sit amet consectetur adip Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus debitis, architecto culpa laborum ex eaque incidunt modi rem ipsam aliquid.
+        Get ready to dive into an exciting showcase of my skills and experience through captivating real-world projects! Each project comes with a thrilling description and is accompanied by links to code repositories, making it an adventurous journey through my diverse range of abilities. These projects highlight my knack for unraveling complex problems, embracing different technologies, and orchestrating projects with a touch of flair. So, buckle up and join me for a thrilling exploration of creativity and innovation!
       </motion.p>
     </div>
 

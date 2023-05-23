@@ -25,10 +25,17 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import pau from "./company/pau.png";
+import hng from "./company/hng.jpeg";
+import interswitch from "./company/interswitch.jpeg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import cms from "./cms.png";
+import color from "./color.png";
+import keylog from "./keylog.png";
+import more from "./more.png";
 
 export {
   logo,
@@ -55,8 +62,15 @@ export {
   meta,
   shopify,
   starbucks,
+  pau,
+  hng,
+  interswitch,
   tesla,
   carrent,
   jobit,
   tripguide,
+  cms,
+  color,
+  keylog,
+  more,
 };

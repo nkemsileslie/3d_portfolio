@@ -39,12 +39,12 @@ const About = () => {
         <p className={styles.sectionSubText}
         >Introduction</p>
         <h2 className={styles.sectionHeadText}
-        >Overview.</h2>
+        >Overview</h2>
       </motion.div>
 
       <motion.p variants={fadeIn("", "", 0.1, 1)}
       className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
-      Lorem ipsum dolorelectus tenetur minima asperiores nulla, tempore, fugiat dolor nobis accusantium voluptatum ipsum pariatur incidunt quis blanditiis earum veritatis, fuga excepturi! Optio molestias quaerat officia cum quam commodi vel. Atque, voluptates perspiciatis in rem provident obcaecati unde eius facere aspernatur sapiente tempore animi?
+      A software engineer with a deep understanding of computer science principles and programming languages. My passion is to utilize my expertise to design cutting-edge solutions and I am particularly enthusiastic about the realm of cybersecurity. Through my internships and academic studies, I have gained valuable knowledge in creating and implementing secure systems and am excited to continue learning and developing my skills in this area.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

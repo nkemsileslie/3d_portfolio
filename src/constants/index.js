@@ -17,12 +17,19 @@ import {
   docker,
   meta,
   starbucks,
+  pau,
+  hng,
+  interswitch,
   tesla,
   shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
+  color,
+  cms,
+  keylog,
+  more,
 } from "../assets";
 
 export const navLinks = [
@@ -46,7 +53,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Cybersecurity",
     icon: mobile,
   },
   {
@@ -54,7 +61,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Leadership & Teamwork",
     icon: creator,
   },
 ];
@@ -104,55 +111,49 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Information Technology Support Analyst Intern",
+    company_name: "Pan-Atlantic University (PAU) ",
+    icon: pau,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Jun 2021 - Aug 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "During my internship I assisted with:",
+      "troubleshooting computer hardware and software ",
+      "cloning and software installations and configurations ",
+      "letting up teleconference ,video conference meetings and video conference classes",
+      "and other similar duties assigned by my supervisor ",
+      "By the end of my internship I was able to perform all the above tasks adequately with little or no supervision.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "BackEnd Developer",
+    company_name: "HNG Internship",
+    icon: hng,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Aug 2021 - Sep 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "During my internship I;",
+      "Developed and maintained web applications using Python and other related technologies.",
+      "Collaborated with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implemented responsive design and ensuring cross-browser compatibility.",
+      "Participated in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Software Engineering Intern",
+    company_name: "Interswitch Group",
+    icon: interswitch,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "As a software engineering intern I perform the following duties;",
+      "Assisting my team mates in developing applications .",
+      "Debugging and testing code.",
+      "Documenting and testing new software applications as well as already existing software ",
+      "Researching, investigating and fixing a wide range of technical issues",
+      "Collaborating with senior leaders",
+      "Approaching problems and creating solutions",
+      "Proactively learning about new technologies",
     ],
   },
 ];
@@ -186,67 +187,76 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Color-Mix",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Colour Mix is a two-dimensional game created in the Unity game engine using C#.It's made to work on mobile and webgl platforms.It's a match-3 game that's similar to Candy Crush in principle. This project was created as a fun project and as a result of my interest in game development.",
+    tags: [
+      {
+        name: "C#",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "unity engine",
+        color: "green-text-gradient",
+      },
+      {
+        name: "self-learning",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: color,
+    source_code_link: "https://github.com/nkemsileslie/color-mix-Match3_Game-",
+  },
+  {
+    name: "Student Complaint Management System",
+    description:
+      "Developed  a complaint management system web application as my final year project. It was developed using node.js and i worked in a team to complete this project.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "node.js",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "team-work",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: cms,
+    source_code_link: "https://github.com/alabiemmanuel177/Complaint-Management-System",
   },
   {
-    name: "Job IT",
+    name: "Keylogger Development and Implementation",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "As part of my ongoing passion for cybersecurity and software development, I undertook a project to develop and implement a keylogger. A keylogger is a powerful tool used to record keystrokes on a computer, capturing valuable insights into user activities and enhancing security measures.",
     tags: [
       {
-        name: "react",
+        name: "python",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "critical thinking",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "self-learning",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: keylog,
+    source_code_link: "https://github.com/nkemsileslie/Keylogger",
   },
   {
-    name: "Trip Guide",
+    name: "View more ...",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "view more projects on my github repository.",
     tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: more,
+    source_code_link: "https://github.com/nkemsileslie",
   },
 ];
 
